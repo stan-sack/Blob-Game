@@ -2,12 +2,12 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 
-public class SpaceCraftExample extends JFrame{
+public class BlobGame extends JFrame{
 	
 	private final int BOARD_X = 668;
 	private final int BOARD_Y = 690;
 	
-	public SpaceCraftExample(){
+	public BlobGame(){
 		initUI();
 	}
 	
@@ -24,7 +24,7 @@ public class SpaceCraftExample extends JFrame{
 		EventQueue.invokeLater(new Runnable(){
 			@Override
 			public void run(){
-				SpaceCraftExample ex = new SpaceCraftExample();
+				BlobGame ex = new BlobGame();
 				ex.setVisible(true);
 			}
 		});
